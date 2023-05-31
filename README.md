@@ -6,9 +6,9 @@ Take on mlflow starter for a ease of getting into MlOps
 
 ### Pienv & pyenv
 
-Make sure you have `pyenv` installed. Please follow the [Pyenv repository](https://github.com/pyenv/pyenv) to install it. Use [Pyenv-win reposytory](https://github.com/pyenv-win/pyenv-win) if you're on Windows
+Make sure you have `pyenv` installed. Please follow the [Pyenv repository](https://github.com/pyenv/pyenv) to install it. Use [Pyenv-win repository](https://github.com/pyenv-win/pyenv-win) if you're on Windows
 
-Make sure you have `pipenv` installed. Please follow the [Pienv documentation](https://pipenv-fork.readthedocs.io/en/latest/install.html) to install it.
+Make sure you have `pipenv` installed. Please follow the [PiPenv documentation](https://pipenv-fork.readthedocs.io/en/latest/install.html) to install it.
 
 **Pay attention** if you are on Windows and didn't add `pipenv` to your `PATH` you need always add `python -m` in front of `pipenv`
 
