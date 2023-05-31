@@ -1,0 +1,5 @@
+FROM minio/minio:latest
+
+# Set the entrypoint
+ENTRYPOINT ["minio", "server", "/data"]
+

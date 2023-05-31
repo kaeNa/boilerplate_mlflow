@@ -1,0 +1,12 @@
+FROM python:3.8-slim-buster
+
+# Install dependencies
+RUN apt-get update && apt-get install -y \
+    build-essential \
+    libpq-dev
+
+# Install MLflow
+RUN pip install mlflow
+
+# Set the entrypoint
+ENTRYPOINT ["mlflow", "server", "--host", "0.0.0.0"]
